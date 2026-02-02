@@ -51,21 +51,6 @@
 - **Auto-pilot:** Runs the Doctor and automatically applies fixes for all detected issues.
 - **Iterative:** Fixes issues one by one until the project is healthy.
 
-## 📂 Folder Structure
-```
-self-healing-mcp/
-├─ src/
-│  ├─ server.ts        # MCP entry point
-│  ├─ runner.ts        # Command execution
-│  ├─ classify.ts      # Error regex matching
-│  ├─ fixes.ts         # Fix strategies
-│  ├─ loop.ts          # Retry logic
-│  └─ memory.ts        # Simple state file
-├─ examples/
-│  └─ nextjs-demo.md
-├─ package.json
-└─ README.md
-```
 
 ## 🛠️ Quick Start (Universal Config)
 
@@ -83,6 +68,22 @@ Add this to your **Claude Desktop** or **MCP Client** configuration (`claude_des
     }
   }
 }
+```
+
+## 📂 Folder Structure
+```
+self-healing-mcp/
+├─ src/
+│  ├─ server.ts        # MCP entry point
+│  ├─ runner.ts        # Command execution
+│  ├─ classify.ts      # Error regex matching
+│  ├─ fixes.ts         # Fix strategies
+│  ├─ loop.ts          # Retry logic
+│  └─ memory.ts        # Simple state file
+├─ examples/
+│  └─ nextjs-demo.md
+├─ package.json
+└─ README.md
 ```
 
 ### 🩺 Manual Usage (CLI)
