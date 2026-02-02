@@ -1,0 +1,8 @@
+node_modules/
+build/
+*.log
+.env
+.DS_Store
+tests/doctor_test/
+tests/full_suite_test/
+tests/live_mcp_test/

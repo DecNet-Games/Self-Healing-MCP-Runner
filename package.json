@@ -1,0 +1,40 @@
+{
+  "name": "self-healing-mcp-vibe",
+  "version": "0.1.0",
+  "description": "An MCP server that self-heals build errors.",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/server.js",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "self-healing-mcp": "./build/server.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "mcp",
+    "agent",
+    "self-healing",
+    "automation"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "express": "^5.2.1",
+    "ora": "^5.4.1",
+    "strip-ansi": "^6.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/node": "^20.11.0",
+    "@types/ora": "^3.1.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "lastCommand": "npm start",
+  "lastError": "{\"type\":\"CODE_ERROR\",\"details\":\"referenceerror: undefinedfunctioncall is not defined\",\"file\":\"c:\\\\users\\\\ansh\\\\self-healing mcp runner\\\\self-healing-mcp\\\\tests\\\\temp_error_env\\\\bad_code.js\",\"line\":3}",
+  "fixAttempts": []
+}
